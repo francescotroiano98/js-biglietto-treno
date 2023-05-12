@@ -4,7 +4,11 @@ const age = parseInt(prompt("scrivi la tua età"));
 console.log(age);
 let ticketprice = 0.21 * kilometri;
 console.log (ticketprice);
+let nonNumero = true;
 
+if(parseInt(nonNumero)){
+    alert("Hai messo qualcosa che non va")
+} 
 
     if (age < 18) {
         ticketprice = ticketprice - ((kilometri*0.21*20)/100);
