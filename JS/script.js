@@ -4,9 +4,8 @@ const age = parseInt(prompt("scrivi la tua età"));
 console.log(age);
 let ticketprice = 0.21 * kilometri;
 console.log (ticketprice);
-let nonNumero = true;
 
-if (isNaN(parseInt(nonNumero))){
+if (isNaN(parseInt(kilometri && age))){
     alert("Hai messo qualcosa che non va")
 } 
 
