@@ -6,7 +6,7 @@ let ticketprice = 0.21 * kilometri;
 console.log (ticketprice);
 let nonNumero = true;
 
-if(parseInt(nonNumero)){
+if (isNaN(parseInt(nonNumero))){
     alert("Hai messo qualcosa che non va")
 } 
 
